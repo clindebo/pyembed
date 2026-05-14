@@ -45,9 +45,10 @@
       import('https://esm.sh/@codemirror/language@6'),
       import('https://esm.sh/@lezer/highlight@1'),
       import('https://esm.sh/@codemirror/view@6'),
-    ]).then(([{ EditorView, basicSetup }, { EditorState }, { python }, { syntaxHighlighting, HighlightStyle }, { tags }, { ViewPlugin, Decoration, MatchDecorator }]) => ({
+      import('https://esm.sh/@codemirror/commands@6'),
+    ]).then(([{ EditorView, basicSetup }, { EditorState }, { python }, { syntaxHighlighting, HighlightStyle }, { tags }, { ViewPlugin, Decoration, MatchDecorator, keymap }, { indentWithTab }]) => ({
       EditorView, basicSetup, EditorState, python, syntaxHighlighting, HighlightStyle, tags,
-      ViewPlugin, Decoration, MatchDecorator,
+      ViewPlugin, Decoration, MatchDecorator, keymap, indentWithTab,
     }));
     return _cmPromise;
   }
@@ -396,7 +397,7 @@
     }
 
     const { EditorView, basicSetup, EditorState, python, syntaxHighlighting, HighlightStyle, tags,
-            ViewPlugin, Decoration, MatchDecorator } = cm;
+            ViewPlugin, Decoration, MatchDecorator, keymap, indentWithTab } = cm;
 
     // ── Python built-in highlighter (MatchDecorator) ──────────────────────────
     // lezer-python cannot distinguish built-in calls from user-defined calls via
@@ -552,6 +553,7 @@
         doc: content,
         extensions: [
           basicSetup,
+          keymap.of([indentWithTab]),
           lightTheme,
           idleHighlight,
           builtinHighlighter,
