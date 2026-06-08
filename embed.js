@@ -715,7 +715,7 @@
         : 'https://USERNAME.github.io/REPO';
       const shortSrc  = dataSrc.replace(/^(https?:\/\/[^/]+\/[^/]+\/)?snippets\//, '');
       const viewerUrl = `${base}/viewer.html?src=${encodeURIComponent(shortSrc)}`;
-      const iframeCode = `<iframe\n  src="${viewerUrl}"\n  width="100%"\n  height="540"\n  style="border:none;border-radius:8px;"\n  loading="lazy"\n  allowfullscreen\n></iframe>`;
+      const iframeCode = `<iframe\n  src="${viewerUrl}"\n  width="100%"\n  height="540"\n  style="border:none;border-radius:8px;position:sticky;top:0;"\n  loading="lazy"\n  allowfullscreen\n></iframe>`;
 
       // ── Suggest a filename from the snippet title ────────────────────────────
       const defaultFilename = (snippet.title || 'my_snippet')
