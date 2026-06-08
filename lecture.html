@@ -120,6 +120,13 @@
         pageUrl:       function(n) { return 'lecture.html?course=tutorials-dd1310&n=' + n; },
         courseTitle:   'DD1310 Tutorials',
         navLabel:      function(n) { return '' + n; }
+      },
+      'dd1320': {
+        folderPrefix: 'DD1320/',
+        numFromFolder: function(f) { return parseInt(f.replace('DD1320/', ''), 10); },
+        pageUrl:       function(n) { return 'lecture.html?course=dd1320&n=' + n; },
+        courseTitle:   'DD1320 – Automater',
+        navLabel:      function(n) { return '' + n; }
       }
     };
 
