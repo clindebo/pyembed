@@ -3,7 +3,7 @@
   "files": [
     {
       "name": "infil.txt",
-      "content": "mjölk 15\nbröd 25\nost 65\nfil 23\nsylt 45\n"
+      "content": "mjölk 15\nbröd 25\nost 65\nfil 23\nsylt 45\n\n\n\n\n\n\n\n\n\n\n"
     },
     {
       "name": "main.py",

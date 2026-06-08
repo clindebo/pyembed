@@ -7,7 +7,7 @@
     },
     {
       "name": "main.py",
-      "content": "from bok import *\n\nclass Ljudbok(Bok):\n  pass\n    \n    "
+      "content": "from bok import *\n\nclass Ljudbok(Bok):\n  pass\n    \n    \n\n\n\n\n\n\n\n\n\n"
     }
   ]
 }

@@ -7,11 +7,11 @@
     },
     {
       "name": "main.py",
-      "content": "from konto import*\nfrom sparkonto import*\n\n    \ndef huvudprogram():\n  \"\"\"Skapar Konto och Sparkonto objekt och skrier ut dessa\"\"\"\n  konto = Konto(\"Kontohavare A\",1120000, 1234, 10)\n  sparkonto = Sparkonto(\"Kontohavare A\",1120001, 1234, 1000)\n  \n  print(\"Konto: \", konto)\n  print(\"Sparkonto: \", sparkonto)\n  \n\nhuvudprogram()"
+      "content": "from konto import*\nfrom sparkonto import*\n\n    \ndef huvudprogram():\n  \"\"\"Skapar Konto och Sparkonto objekt och skrier ut dessa\"\"\"\n  konto = Konto(\"Kontohavare A\",1120000, 1234, 10)\n  sparkonto = Sparkonto(\"Kontohavare A\",1120001, 1234, 1000)\n  \n  print(\"Konto: \", konto)\n  print(\"Sparkonto: \", sparkonto)\n  \n\nhuvudprogram()\n\n"
     },
     {
       "name": "sparkonto.py",
-      "content": "from konto import *\n\nclass Sparkonto(Konto):\n  \"\"\"Beskriver ett Sparkonto, ärver från klassen Konto har attributen kontoinnehavare (str), kontonr (int), pin (int), saldo (float)\"\"\"\n  pass"
+      "content": "from konto import *\n\nclass Sparkonto(Konto):\n  \"\"\"Beskriver ett Sparkonto, ärver från klassen Konto har attributen kontoinnehavare (str), kontonr (int), pin (int), saldo (float)\"\"\"\n  pass\n\n\n\n\n\n\n\n\n\n\n"
     }
   ]
 }

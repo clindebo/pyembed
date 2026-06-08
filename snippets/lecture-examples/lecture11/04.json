@@ -3,7 +3,7 @@
   "files": [
     {
       "name": "main.py",
-      "content": "from rum import *\nfrom rum_pentry import *\n  \n\ndef main():\n  rum = Rum(16, 1, False)\n  print(rum)  \n  rum2 = Rum_med_Pentry(20, 1, True, False, True)\n  print(rum2) \n\nmain()"
+      "content": "from rum import *\nfrom rum_pentry import *\n  \n\ndef main():\n  rum = Rum(16, 1, False)\n  print(rum)  \n  rum2 = Rum_med_Pentry(20, 1, True, False, True)\n  print(rum2) \n\nmain()\n\n\n\n\n"
     },
     {
       "name": "rum.py",

@@ -3,7 +3,7 @@
   "files": [
     {
       "name": "dice.py",
-      "content": "from random import *\n\ndef kasta(sidor=6):\n  kast = randint(1,sidor)\n  return kast"
+      "content": "from random import *\n\ndef kasta(sidor=6):\n  kast = randint(1,sidor)\n  return kast\n\n\n\n\n\n\n\n\n\n\n"
     },
     {
       "name": "main.py",
