@@ -226,6 +226,7 @@
 .${HOST_CLS} .pw-editor-area .cm-scroller {
   font-family: Menlo, Monaco, 'Courier New', Courier, monospace !important;
   overflow: auto !important;
+  overscroll-behavior: contain;
 }
 /* Python built-in names — purple like IDLE */
 .${HOST_CLS} .pw-editor-area .cm-py-builtin { color: #900090; }
@@ -264,7 +265,7 @@
   font-size: 11px; padding: 0 2px; font-family: inherit;
 }
 .${HOST_CLS} .pw-clear-btn:hover { color: #24292e; }
-.${HOST_CLS} .pw-output-body { flex: 1; overflow-y: auto; padding: 10px 14px; background: #fff; }
+.${HOST_CLS} .pw-output-body { flex: 1; overflow-y: auto; padding: 10px 14px; background: #fff; overscroll-behavior: contain; }
 .${HOST_CLS} .pw-output-pre {
   margin: 0; font-family: 'Courier New', Courier, monospace;
   font-size: 14px; line-height: 1.6; color: #24292e;
