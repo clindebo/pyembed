@@ -664,6 +664,17 @@
       ]
     },
     {
+      "id": "lecture16",
+      "name": "KS",
+      "folder": "lecture-examples/lecture16",
+      "snippets": [
+        {
+          "file": "lecture-examples/lecture16/01.json",
+          "title": "KS"
+        }
+      ]
+    },
+    {
       "id": "mobius-dd100n-01",
       "name": "Möbius DD100N – Lesson 1",
       "folder": "mobius-DD100N/lesson01",
