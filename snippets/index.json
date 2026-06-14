@@ -1669,6 +1669,10 @@
         {
           "file": "DD1320/02/01.json",
           "title": "2.1 Syntaxkontroll för tågtider"
+        },
+        {
+          "file": "DD1320/02/02.json",
+          "title": "2.2 Syntaxkontroll för tågtider (v2)"
         }
       ]
     }
