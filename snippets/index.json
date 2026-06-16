@@ -1055,6 +1055,20 @@
       ]
     },
     {
+      "folder": "mobius-DD100N/lesson08",
+      "name": "Möbius DD100N – Lesson 8",
+      "snippets": [
+        {
+          "file": "mobius-DD100N/lesson08/01.json",
+          "title": "8.1 Fakultet – iteration och rekursion (lista som räknare)"
+        },
+        {
+          "file": "mobius-DD100N/lesson08/02.json",
+          "title": "8.2 Fakultet – iteration och rekursion (global variabel)"
+        }
+      ]
+    },
+    {
       "id": "mobius-dd1310-01",
       "name": "Möbius DD1310 – Lektion 1",
       "folder": "mobius-DD1310/lektion01",
