@@ -41,10 +41,8 @@ Four pages are available for navigating snippets:
 | Course | URL |
 |--------|-----|
 | DD1310 Lecture Examples | `lecture.html?course=lectures&n=1` |
-| Möbius DD100N | `lecture.html?course=mobius-dd100n&n=1` |
 | Möbius DD1310 | `lecture.html?course=mobius-dd1310&n=1` |
 | DD1310 Tutorials | `lecture.html?course=tutorials-dd1310&n=1` |
-| DD1320 Automater | `lecture.html?course=dd1320&n=1` |
 
 Change `n=1` to the lesson number you want.
 
@@ -157,14 +155,10 @@ Converts source folders of `.py` files (and multi-file subfolders) into snippet 
 │   │   ├── lecture01/
 │   │   │   ├── 01.json … 04.json
 │   │   └── lecture02/ … lecture15/
-│   ├── mobius-DD100N/
-│   │   ├── lesson01/ … lesson06/
 │   ├── mobius-DD1310/
 │   │   ├── lektion01/ … lektion12/
-│   ├── tutorials-DD1310/
-│   │   ├── tutorial01/ … tutorial04/
-│   └── DD1320/
-│       └── 01/
+│   └── tutorials-DD1310/
+│       └── tutorial01/ … tutorial06/
 ├── .nojekyll                   ← disables Jekyll on GitHub Pages
 └── README.md
 ```

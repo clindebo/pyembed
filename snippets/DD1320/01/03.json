@@ -1,9 +1,0 @@
-{
-  "title": "1.3 Reguljära uttryck",
-  "files": [
-    {
-      "name": "main.py",
-      "content": "import re\n\nmönster = \"[Mm]ån|[Tt]is|[Oo]ns|[Tt]ors|[Ff]re\"\ntext = \"Jag jobbar på Måndag, tisdag, lördag och fredag.\"\n\nmatchningar = re.findall(mönster, text)\nprint(matchningar)\n\n\n\n\n\n\n\n\n"
-    }
-  ]
-}

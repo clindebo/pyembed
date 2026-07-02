@@ -1,9 +1,0 @@
-{
-  "title": "4.1 Funktionsdefinition",
-  "files": [
-    {
-      "name": "main.py",
-      "content": "def hälsning(): \n  print(\"Hej!\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-    }
-  ]
-}

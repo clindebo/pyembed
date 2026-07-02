@@ -1,9 +1,0 @@
-{
-  "title": "3.4 for-slingor med range",
-  "files": [
-    {
-      "name": "main.py",
-      "content": "for i in range(10):\n    print(i)\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-    }
-  ]
-}
